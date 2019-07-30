@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F469D44122F0EFFD00738D78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F469D44022F0EFFD00738D78 /* AppDelegate.swift */; };
+		F469D44322F0EFFD00738D78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F469D44222F0EFFD00738D78 /* SceneDelegate.swift */; };
+		F469D44522F0EFFD00738D78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F469D44422F0EFFD00738D78 /* ViewController.swift */; };
+		F469D44822F0EFFD00738D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F469D44622F0EFFD00738D78 /* Main.storyboard */; };
+		F469D44A22F0EFFE00738D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F469D44922F0EFFE00738D78 /* Assets.xcassets */; };
+		F469D44D22F0EFFE00738D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F469D44B22F0EFFE00738D78 /* LaunchScreen.storyboard */; };
+		F469D45822F0EFFF00738D78 /* Connecting_Arduino_to_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F469D45722F0EFFF00738D78 /* Connecting_Arduino_to_IOSTests.swift */; };
+		F469D46322F0EFFF00738D78 /* Connecting_Arduino_to_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F469D46222F0EFFF00738D78 /* Connecting_Arduino_to_IOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F469D45422F0EFFF00738D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F469D43522F0EFFD00738D78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F469D43C22F0EFFD00738D78;
+			remoteInfo = "Connecting Arduino to IOS";
+		};
+		F469D45F22F0EFFF00738D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F469D43522F0EFFD00738D78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F469D43C22F0EFFD00738D78;
+			remoteInfo = "Connecting Arduino to IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F469D43D22F0EFFD00738D78 /* Connecting Arduino to IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connecting Arduino to IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F469D44022F0EFFD00738D78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F469D44222F0EFFD00738D78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F469D44422F0EFFD00738D78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F469D44722F0EFFD00738D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F469D44922F0EFFE00738D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F469D44C22F0EFFE00738D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F469D44E22F0EFFE00738D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F469D45322F0EFFF00738D78 /* Connecting Arduino to IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Connecting Arduino to IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F469D45722F0EFFF00738D78 /* Connecting_Arduino_to_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connecting_Arduino_to_IOSTests.swift; sourceTree = "<group>"; };
+		F469D45922F0EFFF00738D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F469D45E22F0EFFF00738D78 /* Connecting Arduino to IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Connecting Arduino to IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F469D46222F0EFFF00738D78 /* Connecting_Arduino_to_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connecting_Arduino_to_IOSUITests.swift; sourceTree = "<group>"; };
+		F469D46422F0EFFF00738D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F469D43A22F0EFFD00738D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F469D45022F0EFFF00738D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F469D45B22F0EFFF00738D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F469D43422F0EFFD00738D78 = {
+			isa = PBXGroup;
+			children = (
+				F469D43F22F0EFFD00738D78 /* Connecting Arduino to IOS */,
+				F469D45622F0EFFF00738D78 /* Connecting Arduino to IOSTests */,
+				F469D46122F0EFFF00738D78 /* Connecting Arduino to IOSUITests */,
+				F469D43E22F0EFFD00738D78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F469D43E22F0EFFD00738D78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F469D43D22F0EFFD00738D78 /* Connecting Arduino to IOS.app */,
+				F469D45322F0EFFF00738D78 /* Connecting Arduino to IOSTests.xctest */,
+				F469D45E22F0EFFF00738D78 /* Connecting Arduino to IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F469D43F22F0EFFD00738D78 /* Connecting Arduino to IOS */ = {
+			isa = PBXGroup;
+			children = (
+				F469D44022F0EFFD00738D78 /* AppDelegate.swift */,
+				F469D44222F0EFFD00738D78 /* SceneDelegate.swift */,
+				F469D44422F0EFFD00738D78 /* ViewController.swift */,
+				F469D44622F0EFFD00738D78 /* Main.storyboard */,
+				F469D44922F0EFFE00738D78 /* Assets.xcassets */,
+				F469D44B22F0EFFE00738D78 /* LaunchScreen.storyboard */,
+				F469D44E22F0EFFE00738D78 /* Info.plist */,
+			);
+			path = "Connecting Arduino to IOS";
+			sourceTree = "<group>";
+		};
+		F469D45622F0EFFF00738D78 /* Connecting Arduino to IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F469D45722F0EFFF00738D78 /* Connecting_Arduino_to_IOSTests.swift */,
+				F469D45922F0EFFF00738D78 /* Info.plist */,
+			);
+			path = "Connecting Arduino to IOSTests";
+			sourceTree = "<group>";
+		};
+		F469D46122F0EFFF00738D78 /* Connecting Arduino to IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F469D46222F0EFFF00738D78 /* Connecting_Arduino_to_IOSUITests.swift */,
+				F469D46422F0EFFF00738D78 /* Info.plist */,
+			);
+			path = "Connecting Arduino to IOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F469D43C22F0EFFD00738D78 /* Connecting Arduino to IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F469D46722F0EFFF00738D78 /* Build configuration list for PBXNativeTarget "Connecting Arduino to IOS" */;
+			buildPhases = (
+				F469D43922F0EFFD00738D78 /* Sources */,
+				F469D43A22F0EFFD00738D78 /* Frameworks */,
+				F469D43B22F0EFFD00738D78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Connecting Arduino to IOS";
+			productName = "Connecting Arduino to IOS";
+			productReference = F469D43D22F0EFFD00738D78 /* Connecting Arduino to IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F469D45222F0EFFF00738D78 /* Connecting Arduino to IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F469D46A22F0EFFF00738D78 /* Build configuration list for PBXNativeTarget "Connecting Arduino to IOSTests" */;
+			buildPhases = (
+				F469D44F22F0EFFF00738D78 /* Sources */,
+				F469D45022F0EFFF00738D78 /* Frameworks */,
+				F469D45122F0EFFF00738D78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F469D45522F0EFFF00738D78 /* PBXTargetDependency */,
+			);
+			name = "Connecting Arduino to IOSTests";
+			productName = "Connecting Arduino to IOSTests";
+			productReference = F469D45322F0EFFF00738D78 /* Connecting Arduino to IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F469D45D22F0EFFF00738D78 /* Connecting Arduino to IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F469D46D22F0EFFF00738D78 /* Build configuration list for PBXNativeTarget "Connecting Arduino to IOSUITests" */;
+			buildPhases = (
+				F469D45A22F0EFFF00738D78 /* Sources */,
+				F469D45B22F0EFFF00738D78 /* Frameworks */,
+				F469D45C22F0EFFF00738D78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F469D46022F0EFFF00738D78 /* PBXTargetDependency */,
+			);
+			name = "Connecting Arduino to IOSUITests";
+			productName = "Connecting Arduino to IOSUITests";
+			productReference = F469D45E22F0EFFF00738D78 /* Connecting Arduino to IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F469D43522F0EFFD00738D78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Brian Chan and Sigil Wen";
+				TargetAttributes = {
+					F469D43C22F0EFFD00738D78 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F469D45222F0EFFF00738D78 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F469D43C22F0EFFD00738D78;
+					};
+					F469D45D22F0EFFF00738D78 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F469D43C22F0EFFD00738D78;
+					};
+				};
+			};
+			buildConfigurationList = F469D43822F0EFFD00738D78 /* Build configuration list for PBXProject "Connecting Arduino to IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F469D43422F0EFFD00738D78;
+			productRefGroup = F469D43E22F0EFFD00738D78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F469D43C22F0EFFD00738D78 /* Connecting Arduino to IOS */,
+				F469D45222F0EFFF00738D78 /* Connecting Arduino to IOSTests */,
+				F469D45D22F0EFFF00738D78 /* Connecting Arduino to IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F469D43B22F0EFFD00738D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F469D44D22F0EFFE00738D78 /* LaunchScreen.storyboard in Resources */,
+				F469D44A22F0EFFE00738D78 /* Assets.xcassets in Resources */,
+				F469D44822F0EFFD00738D78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F469D45122F0EFFF00738D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F469D45C22F0EFFF00738D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F469D43922F0EFFD00738D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F469D44522F0EFFD00738D78 /* ViewController.swift in Sources */,
+				F469D44122F0EFFD00738D78 /* AppDelegate.swift in Sources */,
+				F469D44322F0EFFD00738D78 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F469D44F22F0EFFF00738D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F469D45822F0EFFF00738D78 /* Connecting_Arduino_to_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F469D45A22F0EFFF00738D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F469D46322F0EFFF00738D78 /* Connecting_Arduino_to_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F469D45522F0EFFF00738D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F469D43C22F0EFFD00738D78 /* Connecting Arduino to IOS */;
+			targetProxy = F469D45422F0EFFF00738D78 /* PBXContainerItemProxy */;
+		};
+		F469D46022F0EFFF00738D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F469D43C22F0EFFD00738D78 /* Connecting Arduino to IOS */;
+			targetProxy = F469D45F22F0EFFF00738D78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F469D44622F0EFFD00738D78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F469D44722F0EFFD00738D78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F469D44B22F0EFFE00738D78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F469D44C22F0EFFE00738D78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F469D46522F0EFFF00738D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F469D46622F0EFFF00738D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F469D46822F0EFFF00738D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ARBDKLDHG;
+				INFOPLIST_FILE = "Connecting Arduino to IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Learning.Connecting-Arduino-to-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F469D46922F0EFFF00738D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ARBDKLDHG;
+				INFOPLIST_FILE = "Connecting Arduino to IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Learning.Connecting-Arduino-to-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F469D46B22F0EFFF00738D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ARBDKLDHG;
+				INFOPLIST_FILE = "Connecting Arduino to IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Learning.Connecting-Arduino-to-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connecting Arduino to IOS.app/Connecting Arduino to IOS";
+			};
+			name = Debug;
+		};
+		F469D46C22F0EFFF00738D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ARBDKLDHG;
+				INFOPLIST_FILE = "Connecting Arduino to IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Learning.Connecting-Arduino-to-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connecting Arduino to IOS.app/Connecting Arduino to IOS";
+			};
+			name = Release;
+		};
+		F469D46E22F0EFFF00738D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ARBDKLDHG;
+				INFOPLIST_FILE = "Connecting Arduino to IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Learning.Connecting-Arduino-to-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Connecting Arduino to IOS";
+			};
+			name = Debug;
+		};
+		F469D46F22F0EFFF00738D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ARBDKLDHG;
+				INFOPLIST_FILE = "Connecting Arduino to IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Learning.Connecting-Arduino-to-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Connecting Arduino to IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F469D43822F0EFFD00738D78 /* Build configuration list for PBXProject "Connecting Arduino to IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F469D46522F0EFFF00738D78 /* Debug */,
+				F469D46622F0EFFF00738D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F469D46722F0EFFF00738D78 /* Build configuration list for PBXNativeTarget "Connecting Arduino to IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F469D46822F0EFFF00738D78 /* Debug */,
+				F469D46922F0EFFF00738D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F469D46A22F0EFFF00738D78 /* Build configuration list for PBXNativeTarget "Connecting Arduino to IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F469D46B22F0EFFF00738D78 /* Debug */,
+				F469D46C22F0EFFF00738D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F469D46D22F0EFFF00738D78 /* Build configuration list for PBXNativeTarget "Connecting Arduino to IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F469D46E22F0EFFF00738D78 /* Debug */,
+				F469D46F22F0EFFF00738D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F469D43522F0EFFD00738D78 /* Project object */;
+}
